@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hotellist-header>h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.hotellist-body {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.hotellist-item {
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotellist-item-title>h2 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.hotellist-item-description {
+    width: 200px;
+}
+
+.hotellist-item-contactinfo {
+    font-size: 24px;
+    font-weight: bold;
+}
